@@ -26,13 +26,22 @@ namespace Formulario
 
             if (e > 18)
             {
-                Console.WriteLine("Eres menor de edad, Registro Fallido");
+                Console.WriteLine("\n\nResgistro Exitoso, sus datos son los siguientes:");
+                Console.WriteLine("\nNombre: " + n + ap + am);
+                Console.WriteLine("\nEdad:" + e);
+                Console.WriteLine("\nNumero de telefono: " + nt);
+                Console.WriteLine("\nOcupacion:" + o);
             }
-            else
+            else if (e < 18)
             {
-                Console.WriteLine("Registro Exitosos");
+                Console.WriteLine("\nRegistro Fallido, el usuario es menor de edad");
             }
 
+            Console.Write("\n\nFin del programa");
+            Console.ReadLine();
         }
     }
 }
+            
+
+
