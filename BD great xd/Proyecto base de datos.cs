@@ -29,7 +29,7 @@ namespace BaseDeDatos603
             databaseCommand.CommandTimeout = 60;
             MySqlDataReader reader;
             string datos;
-      
+
 
             try
             {
@@ -40,7 +40,7 @@ namespace BaseDeDatos603
                     while (reader.Read())
                     {
 
-                        Console.WriteLine(reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - "+reader.GetString(3));
+                        Console.WriteLine(reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3));
                         datos = reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3);
 
                     }
@@ -61,7 +61,7 @@ namespace BaseDeDatos603
         private void Eliminar()
         {
             string connection = "datasource=localhost;port=3306;username=root;password=;database=user";
-            string query = "DELETE FROM `user` WHERE ID  = '" + textBox4.Text +"' ";
+            string query = "DELETE FROM `user` WHERE ID  = '" + textBox4.Text + "' ";
             MySqlConnection conectionDatabase = new MySqlConnection(connection);
             MySqlCommand databaseCommand = new MySqlCommand(query, conectionDatabase);
             databaseCommand.CommandTimeout = 60;
@@ -135,7 +135,7 @@ namespace BaseDeDatos603
                     while (reader.Read())
                     {
                         string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3) };
-                     
+
                         textBox1.Text = row[1];
                         textBox3.Text = row[2];
                         textBox2.Text = row[3];
@@ -159,7 +159,7 @@ namespace BaseDeDatos603
         private void GuardarUsuario()
         {
             string connection = "datasource=localhost;port=3306;username=root;password=;database=user";
-            string query = "INSERT INTO user(`ID`, `First name`, `Last name`, `Address`) VALUES (NULL, '" + textBox1.Text + "', '" + textBox3.Text + "', '" + textBox2.Text + "', '" + textBox4.Text + "')";
+            string query = "INSERT INTO user(`ID`, `First name`, `Last name`, `Address`) VALUES (NULL, '" + textBox1.Text + "', '" + textBox3.Text + "', '" + textBox2.Text + "')";
             MySqlConnection conectionDatabase = new MySqlConnection(connection);
             MySqlCommand databaseCommand = new MySqlCommand(query, conectionDatabase);
             databaseCommand.CommandTimeout = 60;
@@ -167,7 +167,7 @@ namespace BaseDeDatos603
             try
             {
                 conectionDatabase.Open();
-                MySqlDataReader reader1 = databaseCommand.ExecuteReader();
+                MySqlDataReader myreader1 = databaseCommand.ExecuteReader();
                 MessageBox.Show("Dato registrado exitosamente. Felicidades <3");
                 conectionDatabase.Close();
             }
@@ -188,7 +188,7 @@ namespace BaseDeDatos603
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             MySqlDataReader reader;
-            
+
 
             try
             {
@@ -196,7 +196,7 @@ namespace BaseDeDatos603
                 reader = commandDatabase.ExecuteReader();
                 if (reader.HasRows)
                 {
-                    
+
                     while (reader.Read())
                     {
                         listView1.Items.Clear();
@@ -213,7 +213,7 @@ namespace BaseDeDatos603
                 {
                     Console.WriteLine("No se encontro nada :c");
                 }
-              
+
             }
             catch (Exception ex)
             {
@@ -268,7 +268,7 @@ namespace BaseDeDatos603
             MostrarUsuario();
         }
 
-       
+
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {

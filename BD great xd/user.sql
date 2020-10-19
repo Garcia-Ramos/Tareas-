@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-10-2020 a las 11:26:25
+-- Tiempo de generación: 20-10-2020 a las 01:13:22
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
@@ -40,10 +40,27 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`ID`, `First name`, `Last name`, `Address`) VALUES
 (2, 'Grecia', 'Ramos Bravo', 'Veracruz'),
-(3, 'Athos', 'Salmeron ', 'Nicolas Romero'),
-(4, 'Judith', 'Garcia', 'Lomas de San Francisco Tepojaco'),
-(19, 'Alexa', 'Garcia', 'CDMX'),
-(21, 'Sugey', 'Ramos', 'Lomas de Cuautitlan ');
+(3, 'Hortencia', 'Rodriguez', 'Tepojaco');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `user`
+--
+ALTER TABLE `user`
+  MODIFY `ID` int(60) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
