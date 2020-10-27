@@ -23,3 +23,12 @@ C:\Users\alexa\Desktop\Base de Datos\Tareas-\Login-Register\Login\Login\obj\Debu
 C:\Users\alexa\Desktop\Base de Datos\Tareas-\Login-Register\Login\Login\obj\Debug\Login.csproj.CopyComplete
 C:\Users\alexa\Desktop\Base de Datos\Tareas-\Login-Register\Login\Login\obj\Debug\Login.exe
 C:\Users\alexa\Desktop\Base de Datos\Tareas-\Login-Register\Login\Login\obj\Debug\Login.pdb
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.csprojAssemblyReference.cache
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.exe.config
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.Form1.resources
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\MYLOGIN.Form2.resources
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.Properties.Resources.resources
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.csproj.GenerateResource.cache
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.exe
+C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.pdb
