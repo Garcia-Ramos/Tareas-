@@ -1,4 +1,4 @@
-﻿namespace LOGIN
+﻿namespace Login
 {
     partial class Form2
     {
