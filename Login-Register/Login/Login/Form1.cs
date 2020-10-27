@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using LOGIN;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -81,6 +82,8 @@ namespace Login
 
         private void Registerbut_Click(object sender, EventArgs e)
         {
+            Form2 registro = new Form2();
+            registro.Show();
 
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Login
+﻿namespace LOGIN
 {
     partial class Form2
     {
@@ -55,7 +55,7 @@
             this.Registerbut.TabIndex = 19;
             this.Registerbut.Text = "Register";
             this.Registerbut.UseVisualStyleBackColor = true;
-            this.Registerbut.Click += new System.EventHandler(this.Registerbut_Click);
+            this.Registerbut.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -104,6 +104,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace MYLOGIN
+namespace LOGIN
 {
     public partial class Form2 : Form
     {
@@ -70,6 +70,11 @@ namespace MYLOGIN
         private void button1_Click(object sender, EventArgs e)
         {
             Register();
+        }
+
+        private void Form2_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 

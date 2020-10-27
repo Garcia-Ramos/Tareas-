@@ -32,3 +32,4 @@ C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.cspro
 C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
 C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.exe
 C:\Users\GRECIA\Desktop\Tareas-\Login-Register\Login\Login\obj\Debug\Login.pdb
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Login-Register\Login\Login\obj\Debug\LOGIN.Form2.resources
