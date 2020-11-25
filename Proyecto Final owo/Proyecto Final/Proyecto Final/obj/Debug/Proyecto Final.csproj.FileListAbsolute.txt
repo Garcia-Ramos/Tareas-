@@ -1,0 +1,29 @@
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.pdb
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\MySql.Data.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Google.Protobuf.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Zstandard.Net.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\Renci.SshNet.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\System.Buffers.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\System.Memory.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\MySql.Data.xml
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csprojAssemblyReference.cache
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form1.resources
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.CopyComplete
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.exe
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.pdb
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form2.resources
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form4.resources
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form5.resources
+C:\Users\alexa\Desktop\Base de Datos\Tareas-\Proyecto Final owo\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form3.resources

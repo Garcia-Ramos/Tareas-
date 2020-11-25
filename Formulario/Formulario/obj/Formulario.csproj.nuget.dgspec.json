@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ingis\\Documents\\GitHub\\Tareas-\\Formulario\\Formulario\\Formulario.csproj": {}
+    "C:\\Users\\alexa\\Desktop\\Base de Datos\\Tareas-\\Formulario\\Formulario\\Formulario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ingis\\Documents\\GitHub\\Tareas-\\Formulario\\Formulario\\Formulario.csproj": {
+    "C:\\Users\\alexa\\Desktop\\Base de Datos\\Tareas-\\Formulario\\Formulario\\Formulario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ingis\\Documents\\GitHub\\Tareas-\\Formulario\\Formulario\\Formulario.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Desktop\\Base de Datos\\Tareas-\\Formulario\\Formulario\\Formulario.csproj",
         "projectName": "Formulario",
-        "projectPath": "C:\\Users\\ingis\\Documents\\GitHub\\Tareas-\\Formulario\\Formulario\\Formulario.csproj",
-        "packagesPath": "C:\\Users\\ingis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ingis\\Documents\\GitHub\\Tareas-\\Formulario\\Formulario\\obj\\",
+        "projectPath": "C:\\Users\\alexa\\Desktop\\Base de Datos\\Tareas-\\Formulario\\Formulario\\Formulario.csproj",
+        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexa\\Desktop\\Base de Datos\\Tareas-\\Formulario\\Formulario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ingis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
