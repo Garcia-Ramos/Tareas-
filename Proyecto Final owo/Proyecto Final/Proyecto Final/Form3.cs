@@ -39,8 +39,8 @@ namespace Proyecto_Final
                     while (reader.Read())
                     {
 
-                        Console.WriteLine(reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3));
-                        datos = reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3);
+                        Console.WriteLine(reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3) + " - " + reader.GetString(4) + " - " + reader.GetString(5) + " - " + reader.GetString(6) + " - " + reader.GetString(7) + " - " + reader.GetString(8) + " - " + reader.GetString(9) + " - " + reader.GetString(10) + " - " + reader.GetString(11));
+                        datos = reader.GetString(0) + " - " + reader.GetString(1) + " - " + reader.GetString(2) + " - " + reader.GetString(3) + " - " + reader.GetString(4) + " - " + reader.GetString(5) + " - " + reader.GetString(6) + " - " + reader.GetString(7) + " - " + reader.GetString(8) + " - " + reader.GetString(9) + " - " + reader.GetString(10) + " - " + reader.GetString(11);
 
                     }
                 }
@@ -106,7 +106,7 @@ namespace Proyecto_Final
                     listView1.Items.Clear();
                     while (reader.Read())
                     {
-                        string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3) };
+                        string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(5), reader.GetString(6) };
 
                         textBox1.Text = row[1];
                         Nombox.Text = row[2];
@@ -132,7 +132,7 @@ namespace Proyecto_Final
         private void MostrarDatos()
         {
             string Connect = "datasource=localhost;port=3306;username=root;password=;database=almacen;";
-            string query = "SELECT * FROM trauma_ortopedia";
+            string query = "SELECT * FROM trauma_ortopedia"; ;
             MySqlConnection databaseConnection = new MySqlConnection(Connect);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
@@ -151,7 +151,7 @@ namespace Proyecto_Final
                         listView1.Items.Clear();
                         while (reader.Read())
                         {
-                            string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3) };
+                            string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetString(4), reader.GetString(5), reader.GetString(6), reader.GetString(7), reader.GetString(8), reader.GetString(9), reader.GetString(10), reader.GetString(11) };
                             var ListViewItems = new ListViewItem(row);
                             listView1.Items.Add(ListViewItems);
                         }
@@ -218,22 +218,21 @@ namespace Proyecto_Final
 
         private void Rebut_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form2 registro = new Form2();
             registro.Show();
         }
 
         private void Abut_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form7 registro = new Form7();
+            registro.Show();
         }
 
         private void Endbut_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Form2 registro = new Form2();
-            registro.Close();
-            Form1 registro1 = new Form1();
-            registro1.Close();
+            Application.Exit();
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -255,5 +254,6 @@ namespace Proyecto_Final
         {
             Eliminar();
         }
+
     }
 }

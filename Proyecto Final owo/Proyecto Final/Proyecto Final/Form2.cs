@@ -20,24 +20,28 @@ namespace Proyecto_Final
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form6 registro = new Form6();
             registro.Show();
         }
 
         private void Imabut_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form5 registro = new Form5();
             registro.Show();
         }
 
         private void Traobut_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form3 registro = new Form3();
             registro.Show();
         }
 
         private void Pediatriabut_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form4 registro = new Form4();
             registro.Show();
         }
@@ -50,6 +54,12 @@ namespace Proyecto_Final
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Endbut_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            
         }
     }
 }

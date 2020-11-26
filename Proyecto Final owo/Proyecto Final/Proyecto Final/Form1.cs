@@ -43,24 +43,30 @@ namespace Proyecto_Final
                 if (reader.Read())
                 {
                     MessageBox.Show("Datos ingresados exitosamente.");
+                    this.Hide();
                     Form2 registro = new Form2();
                     registro.Show();
-
+                
                 }
           
 
                 else
                 {
-                    MessageBox.Show("Datos incorrectos, vuelva a intentarlo.");
+                    MessageBox.Show("Datos incorrectos");
+                    this.Close();
                 }
 
                 databaseConnection.Close();
+                
             }
 
             catch (Exception ex)
             {
+             
                 MessageBox.Show(ex.Message);
+                
             }
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -100,6 +106,11 @@ namespace Proyecto_Final
         }
 
         private void IDBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

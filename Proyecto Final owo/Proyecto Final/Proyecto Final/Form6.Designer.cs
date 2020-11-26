@@ -29,16 +29,16 @@ namespace Proyecto_Final
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup81 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup82 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup83 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup84 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup85 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup86 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup87 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup88 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup89 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup90 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup5 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup6 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup7 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup8 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup9 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup10 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
@@ -73,6 +73,7 @@ namespace Proyecto_Final
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(998, 15);
             this.label6.Name = "label6";
@@ -104,37 +105,37 @@ namespace Proyecto_Final
             this.RIESGO,
             this.REFACCIONES,
             this.ACCESORIOS});
-            listViewGroup81.Header = "ListViewGroup";
-            listViewGroup81.Name = "ID";
-            listViewGroup82.Header = "ListViewGroup";
-            listViewGroup82.Name = "Descripcion";
-            listViewGroup83.Header = "ListViewGroup";
-            listViewGroup83.Name = "Marca";
-            listViewGroup84.Header = "ListViewGroup";
-            listViewGroup84.Name = "Serie";
-            listViewGroup85.Header = "ListViewGroup";
-            listViewGroup85.Name = "Ubicacion";
-            listViewGroup86.Header = "ListViewGroup";
-            listViewGroup86.Name = "Departamento";
-            listViewGroup87.Header = "ListViewGroup";
-            listViewGroup87.Name = "Funcionamiento";
-            listViewGroup88.Header = "ListViewGroup";
-            listViewGroup88.Name = "Riesgo";
-            listViewGroup89.Header = "ListViewGroup";
-            listViewGroup89.Name = "Cantidad de refacciones ";
-            listViewGroup90.Header = "ListViewGroup";
-            listViewGroup90.Name = "Accesorios";
+            listViewGroup1.Header = "ListViewGroup";
+            listViewGroup1.Name = "ID";
+            listViewGroup2.Header = "ListViewGroup";
+            listViewGroup2.Name = "Descripcion";
+            listViewGroup3.Header = "ListViewGroup";
+            listViewGroup3.Name = "Marca";
+            listViewGroup4.Header = "ListViewGroup";
+            listViewGroup4.Name = "Serie";
+            listViewGroup5.Header = "ListViewGroup";
+            listViewGroup5.Name = "Ubicacion";
+            listViewGroup6.Header = "ListViewGroup";
+            listViewGroup6.Name = "Departamento";
+            listViewGroup7.Header = "ListViewGroup";
+            listViewGroup7.Name = "Funcionamiento";
+            listViewGroup8.Header = "ListViewGroup";
+            listViewGroup8.Name = "Riesgo";
+            listViewGroup9.Header = "ListViewGroup";
+            listViewGroup9.Name = "Cantidad de refacciones ";
+            listViewGroup10.Header = "ListViewGroup";
+            listViewGroup10.Name = "Accesorios";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup81,
-            listViewGroup82,
-            listViewGroup83,
-            listViewGroup84,
-            listViewGroup85,
-            listViewGroup86,
-            listViewGroup87,
-            listViewGroup88,
-            listViewGroup89,
-            listViewGroup90});
+            listViewGroup1,
+            listViewGroup2,
+            listViewGroup3,
+            listViewGroup4,
+            listViewGroup5,
+            listViewGroup6,
+            listViewGroup7,
+            listViewGroup8,
+            listViewGroup9,
+            listViewGroup10});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 71);
             this.listView1.Name = "listView1";
@@ -207,6 +208,7 @@ namespace Proyecto_Final
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(679, 20);
             this.label5.Name = "label5";
@@ -218,6 +220,7 @@ namespace Proyecto_Final
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(317, 15);
             this.label4.Name = "label4";
@@ -245,6 +248,7 @@ namespace Proyecto_Final
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(57, 43);
             this.label1.Name = "label1";
@@ -256,6 +260,7 @@ namespace Proyecto_Final
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(21, 20);
             this.label2.Name = "label2";
@@ -266,29 +271,32 @@ namespace Proyecto_Final
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(1231, 180);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(113, 38);
             this.button1.TabIndex = 58;
             this.button1.Text = "Eliminar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Mosbut
             // 
+            this.Mosbut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Mosbut.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Mosbut.Location = new System.Drawing.Point(1231, 240);
             this.Mosbut.Name = "Mosbut";
             this.Mosbut.Size = new System.Drawing.Size(113, 38);
             this.Mosbut.TabIndex = 57;
             this.Mosbut.Text = "Mostrar";
-            this.Mosbut.UseVisualStyleBackColor = true;
+            this.Mosbut.UseVisualStyleBackColor = false;
             this.Mosbut.Click += new System.EventHandler(this.Mosbut_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(1232, 17);
             this.label3.Name = "label3";
@@ -307,52 +315,57 @@ namespace Proyecto_Final
             // 
             // Endbut
             // 
+            this.Endbut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Endbut.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Endbut.Location = new System.Drawing.Point(1231, 425);
             this.Endbut.Name = "Endbut";
             this.Endbut.Size = new System.Drawing.Size(113, 38);
             this.Endbut.TabIndex = 54;
             this.Endbut.Text = "Salir";
-            this.Endbut.UseVisualStyleBackColor = true;
+            this.Endbut.UseVisualStyleBackColor = false;
             this.Endbut.Click += new System.EventHandler(this.Endbut_Click);
             // 
             // Abut
             // 
+            this.Abut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Abut.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Abut.Location = new System.Drawing.Point(1231, 301);
             this.Abut.Name = "Abut";
             this.Abut.Size = new System.Drawing.Size(113, 38);
             this.Abut.TabIndex = 53;
             this.Abut.Text = "Actualizar ";
-            this.Abut.UseVisualStyleBackColor = true;
+            this.Abut.UseVisualStyleBackColor = false;
             this.Abut.Click += new System.EventHandler(this.Abut_Click);
             // 
             // Rebut
             // 
+            this.Rebut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Rebut.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rebut.Location = new System.Drawing.Point(1231, 363);
             this.Rebut.Name = "Rebut";
             this.Rebut.Size = new System.Drawing.Size(113, 38);
             this.Rebut.TabIndex = 52;
             this.Rebut.Text = "Regresar";
-            this.Rebut.UseVisualStyleBackColor = true;
+            this.Rebut.UseVisualStyleBackColor = false;
             this.Rebut.Click += new System.EventHandler(this.Rebut_Click);
             // 
             // Busbut
             // 
+            this.Busbut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Busbut.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Busbut.Location = new System.Drawing.Point(1231, 123);
             this.Busbut.Name = "Busbut";
             this.Busbut.Size = new System.Drawing.Size(113, 38);
             this.Busbut.TabIndex = 51;
             this.Busbut.Text = "Buscar";
-            this.Busbut.UseVisualStyleBackColor = true;
+            this.Busbut.UseVisualStyleBackColor = false;
             this.Busbut.Click += new System.EventHandler(this.Busbut_Click);
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Proyecto_Final.Properties.Resources.a65c2b856c5276d1eb2de274739181c2;
             this.ClientSize = new System.Drawing.Size(1370, 497);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Mosbut);
